@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="550.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.Insurance.TermsandConditions">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="800.0" prefWidth="674.0" style="-fx-background-color: #e6e6fa;" VBox.vgrow="ALWAYS">
+      <children>
+        <Label alignment="CENTER" contentDisplay="TOP" layoutX="111.0" layoutY="16.0" lineSpacing="1.0" prefHeight="96.0" prefWidth="440.0" style="&#10;" text="Find insurance plans&#10;for the whole family" textAlignment="CENTER" textFill="#f59707" textOverrun="LEADING_WORD_ELLIPSIS" wrapText="false">
+          <font>
+            <Font name="System Bold" size="31.0" />
+          </font>
+        </Label>
+            <ImageView fitHeight="77.0" fitWidth="71.0" layoutX="32.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Logo.jpeg" />
+               </image>
+            </ImageView>
+            <Hyperlink layoutX="560.0" layoutY="36.0" onAction="#switchtoAddPlan" prefHeight="23.0" prefWidth="93.0" text="Back to Plan">
+               <font>
+                  <Font size="13.0" />
+               </font></Hyperlink>
+            <TextArea layoutX="18.0" layoutY="151.0" prefHeight="376.0" prefWidth="613.0" promptText="Terms and Conditions for ASR Insurance Management System:1. Coverage: Our Insurance Management System provides coverage for a wide range of insurance policies, including but not limited to health insurance, life insurance, home insurance, car insurance, and travel insurance.2. Eligibility: To use our Insurance Management System, you must be 18 years of age or older and a resident of the country where the insurance policy is valid.3. Accuracy of Information: You are responsible for ensuring that all information provided to our Insurance Management System is accurate and up-to-date. We are not responsible for any errors or omissions in the information you provide.4. Premiums: Premiums for insurance policies are determined by the insurance provider and may vary based on factors such as age, health, and coverage amount. We do not set or collect premiums for insurance policies.5. Claims: Claims for insurance policies must be filed directly with the insurance provider. Our Insurance Management System is not responsible for the processing or approval of claims.6. Privacy: We take the privacy and security of your personal information seriously. We will only use your information in accordance with our Privacy Policy, which can be found on our website.7. Limitation of Liability: Our Insurance Management System is not responsible for any damages or losses arising from the use or inability to use our system, including but not limited to loss of data or loss of profits.8. Termination: We reserve the right to terminate your use of our Insurance Management System at any time, for any reason, without notice.9. Changes to Terms and Conditions: We may modify these terms and conditions at any time without prior notice. Your continued use of our Insurance Management System constitutes acceptance of any changes made to the terms and conditions.10. Governing Law: These terms and conditions shall be governed by and construed in accordance with the laws of the country where the insurance policy is valid.By using our ASR Insurance, you acknowledge that you have read and agree to these terms and conditions." text="Terms and Conditions for ASR Insurance Management System:&#10;&#10;1. Coverage: Our Insurance Management System provides coverage for a wide range of insurance policies, including but not limited to health insurance, life insurance, home insurance, car insurance, and travel insurance.&#10;&#10;2. Eligibility: To use our Insurance Management System, you must be 18 years of age or older and a resident of the country where the insurance policy is valid.&#10;&#10;3. Accuracy of Information: You are responsible for ensuring that all information provided to our Insurance Management System is accurate and up-to-date. We are not responsible for any errors or omissions in the information you provide.&#10;&#10;4. Premiums: Premiums for insurance policies are determined by the insurance provider and may vary based on factors such as age, health, and coverage amount. We do not set or collect premiums for insurance policies.&#10;&#10;5. Claims: Claims for insurance policies must be filed directly with the insurance provider. Our Insurance Management System is not responsible for the processing or approval of claims.&#10;&#10;6. Privacy: We take the privacy and security of your personal information seriously. We will only use your information in accordance with our Privacy Policy, which can be found on our website.&#10;&#10;7. Limitation of Liability: Our Insurance Management System is not responsible for any damages or losses arising from the use or inability to use our system, including but not limited to loss of data or loss of profits.&#10;&#10;8. Termination: We reserve the right to terminate your use of our Insurance Management System at any time, for any reason, without notice.&#10;&#10;9. Changes to Terms and Conditions: We may modify these terms and conditions at any time without prior notice. Your continued use of our Insurance Management System constitutes acceptance of any changes made to the terms and conditions.&#10;&#10;10. Governing Law: These terms and conditions shall be governed by and construed in accordance with the laws of the country where the insurance policy is valid.&#10;&#10;By using our ASR Insurance, you acknowledge that you have read and agree to these terms and conditions." />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

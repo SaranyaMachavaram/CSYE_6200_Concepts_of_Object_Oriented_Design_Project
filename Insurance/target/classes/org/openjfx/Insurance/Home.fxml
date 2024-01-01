@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="550.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.Insurance.Home">
+         
+   <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="550.0" prefWidth="650.0" style="-fx-background-color: #e6e6fa;" VBox.vgrow="ALWAYS">
+      <children>
+        <Label alignment="CENTER" contentDisplay="TOP" layoutX="335.0" layoutY="29.0" lineSpacing="1.0" opacity="0.81" prefHeight="168.0" prefWidth="302.0" style="&#10;" text="Explore Insurance Plans to make life better" textAlignment="CENTER" textFill="#ff7e05" textOverrun="LEADING_WORD_ELLIPSIS" wrapText="true">
+          <font>
+            <Font name="System Bold" size="24.0" />
+          </font>
+        </Label>
+            <ImageView fitHeight="205.0" fitWidth="203.0" layoutX="53.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Logo.jpeg" />
+               </image>
+            </ImageView>
+            <Hyperlink layoutX="53.0" layoutY="385.0" onAction="#switchToLogin" prefHeight="44.0" prefWidth="223.0" text="Already Registered? Sign In" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font> 
+            </Hyperlink>
+            <Hyperlink layoutX="53.0" layoutY="81.0" onAction="#switchToPrimary" prefHeight="75.0" prefWidth="266.0" text="Please Register here !!!!">
+               <font>
+                  <Font size="17.0" />
+               </font></Hyperlink>
+            <Hyperlink layoutX="560.0" layoutY="463.0" onAction="#switchToTeam" text="Our Team">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Hyperlink>
+            <Separator layoutX="300.0" layoutY="44.0" orientation="VERTICAL" prefHeight="482.0" prefWidth="0.0" style="-fx-background-color: grey;" />
+            <ImageView fitHeight="177.0" fitWidth="302.0" layoutX="337.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Insurance3.jpg" />
+               </image>
+            </ImageView>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
